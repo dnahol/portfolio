@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Experience — Dalia Nahol</title>
+<meta name="description" content="Career timeline for Dalia Nahol: 3 years of full-time equivalent software development experience across nonprofit, freelance, and contract work.">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/styles.css">
+<script>
+  (function () {
+    try {
+      var theme = window.localStorage.getItem("theme");
+      if (theme === "light") document.documentElement.setAttribute("data-theme", "light");
+      var a11y = window.localStorage.getItem("a11y");
+      if (a11y === "true") document.documentElement.setAttribute("data-a11y", "true");
+    } catch (e) { /* localStorage unavailable; default dark theme applies */ }
+  })();
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      Dalia Nahol
+    </a>
+
+    <button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="main-nav">
+      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round"/>
+      </svg>
+      <span class="visually-hidden">Menu</span>
+    </button>
+
+    <nav class="main-nav" id="main-nav" data-main-nav aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="experience.html" aria-current="page">Experience</a>
+    </nav>
+
+    <div class="header-controls">
+      <button class="icon-btn" type="button" data-theme-toggle aria-pressed="false">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" stroke-linejoin="round"/>
+        </svg>
+        <span data-theme-label>Light mode</span>
+      </button>
+      <button class="icon-btn" type="button" data-a11y-toggle aria-pressed="false">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18" stroke-linecap="round"/>
+        </svg>
+        <span>Accessibility</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="container" style="padding-top: 3rem;">
+    <p class="hero-eyebrow">Experience</p>
+    <h1 style="font-size: clamp(1.9rem, 1.5rem + 1.8vw, 2.8rem); max-width: 24ch;">A nonlinear path, three years in the making.</h1>
+
+    <div class="summary-card reveal" style="margin-top: 2rem;">
+      <div>
+        <div class="summary-stat">3 Years</div>
+        <div class="summary-stat-label">Full-time equivalent software development experience</div>
+      </div>
+      <p class="summary-text">
+        My path didn't start in a CS classroom. It started with volunteer tech consulting, grew through
+        self-taught study and a bootcamp, and turned into paid freelance and contract engineering work.
+        The timeline below traces that path in reverse chronological order — most recent first.
+      </p>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">Career Timeline</h2>
+    <p class="section-intro">Latest first.</p>
+
+    <ol class="timeline">
+      <li class="timeline-item reveal">
+        <span class="timeline-date">2020–2023</span>
+        <h3>Outco — Tech Coach &amp; Software Engineer (Contract)</h3>
+        <p>Coached engineers through technical interview prep while working as a contract software
+          engineer, applying real production experience to teaching.</p>
+      </li>
+
+      <li class="timeline-item reveal">
+        <span class="timeline-date">2018–2020</span>
+        <h3>Freelance Website Consulting</h3>
+        <p>Consulted for small businesses, building and improving websites as an independent freelancer.</p>
+      </li>
+
+      <li class="timeline-item reveal">
+        <span class="timeline-date">2017</span>
+        <h3>Flippable.org — Nonprofit Work</h3>
+        <p>Contributed to Flippable.org's elections platform as part of a nonprofit engineering effort.</p>
+      </li>
+
+      <li class="timeline-item reveal">
+        <span class="timeline-date">2016</span>
+        <h3>Immersive Coding Bootcamp</h3>
+        <p>Completed a full-time immersive coding bootcamp, sharpening self-taught fundamentals into
+          job-ready engineering skills.</p>
+      </li>
+
+      <li class="timeline-item reveal">
+        <span class="timeline-date">2014–2016</span>
+        <h3>Self-Taught Coding &amp; Coursera Courses</h3>
+        <p>Learned to code independently through online coursework, building the foundation for
+          everything that followed.</p>
+      </li>
+
+      <li class="timeline-item reveal">
+        <span class="timeline-date">2014</span>
+        <h3>Cure Violence — Volunteer Tech Consulting</h3>
+        <p>Volunteered as a tech consultant for Cure Violence, the organization behind the Violence
+          Interrupters program.</p>
+        <div class="timeline-sub">Also developed an Intuit app for the Violence Interrupters as part of this engagement.</div>
+      </li>
+    </ol>
+  </section>
+</main>
+
+<footer class="site-footer container">
+  <p>© 2026 Dalia Nahol. Built with HTML, CSS &amp; JavaScript — no frameworks.</p>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

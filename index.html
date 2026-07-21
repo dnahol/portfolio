@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dalia Nahol — Software Developer Portfolio</title>
+<meta name="description" content="Portfolio of Dalia Nahol: a nonlinear path through self-taught coding, bootcamp, nonprofit and volunteer work, freelance consulting, and contract engineering.">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/styles.css">
+<script>
+  (function () {
+    try {
+      var theme = window.localStorage.getItem("theme");
+      if (theme === "light") document.documentElement.setAttribute("data-theme", "light");
+      var a11y = window.localStorage.getItem("a11y");
+      if (a11y === "true") document.documentElement.setAttribute("data-a11y", "true");
+    } catch (e) { /* localStorage unavailable; default dark theme applies */ }
+  })();
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      Dalia Nahol
+    </a>
+
+    <button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="main-nav">
+      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round"/>
+      </svg>
+      <span class="visually-hidden">Menu</span>
+    </button>
+
+    <nav class="main-nav" id="main-nav" data-main-nav aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="experience.html">Experience</a>
+    </nav>
+
+    <div class="header-controls">
+      <button class="icon-btn" type="button" data-theme-toggle aria-pressed="false">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" stroke-linejoin="round"/>
+        </svg>
+        <span data-theme-label>Light mode</span>
+      </button>
+      <button class="icon-btn" type="button" data-a11y-toggle aria-pressed="false">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18" stroke-linecap="round"/>
+        </svg>
+        <span>Accessibility</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero container">
+    <p class="hero-eyebrow">Fullstack Software Developer</p>
+      I build fullstack JavaScript apps — from automation tools at Outco to open source
+      contributions at Firefox and Wikimedia. Here's what I've made along the way.
+    </p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="#work">See my work</a>
+      <a class="btn btn-secondary" href="experience.html">View my experience</a>
+    </div>
+  </section>
+
+  <!-- ============================== WORK ============================== -->
+  <section id="work" class="container reveal" tabindex="-1">
+    <h2 class="section-title">Work</h2>
+    <p class="section-intro">Paid engineering work: contract, consulting, and freelance engagements.</p>
+
+    <div class="card-grid">
+      <!-- Outco -->
+      <article class="card">
+        <img class="card-thumb" src="assets/images/work-outco.svg" alt="Placeholder thumbnail for the Outco project">
+        <div class="card-body">
+          <h3>Outco</h3>
+          <p class="card-caption">Tech coach &amp; software engineer, contract (2020–2023).</p>
+          <div class="card-actions">
+            <button class="btn btn-secondary" type="button" data-modal-content="modal-outco">Details</button>
+            <a class="btn btn-primary" href="#" rel="noopener">Visit site</a>
+          </div>
+        </div>
+      </article>
+      <template id="modal-outco">
+        <h2 id="modal-title">Outco</h2>
+        <div class="modal-media">
+          <img src="assets/images/work-outco.svg" alt="Placeholder screenshot of Outco work">
+        </div>
+        <p>PLACEHOLDER — replace with a real description: what you built or coached, the stack, and the
+          outcome of your contract as tech coach &amp; software engineer at Outco (2020–2023).</p>
+        <p class="modal-embed-note">GIF / video walkthrough placeholder</p>
+        <a class="modal-link" href="#" rel="noopener">View live site →</a>
+      </template>
+
+      <!-- Dolby Atmos -->
+      <article class="card">
+        <img class="card-thumb" src="assets/images/work-dolby.svg" alt="Placeholder thumbnail for the Dolby Atmos contract">
+        <div class="card-body">
+          <h3>Dolby Atmos Contract</h3>
+          <p class="card-caption">Contract engineering work on Dolby Atmos tooling.</p>
+          <div class="card-actions">
+            <button class="btn btn-secondary" type="button" data-modal-content="modal-dolby">Details</button>
+            <a class="btn btn-primary" href="#" rel="noopener">Visit site</a>
+          </div>
+        </div>
+      </article>
+      <template id="modal-dolby">
+        <h2 id="modal-title">Dolby Atmos Contract</h2>
+        <div class="modal-media">
+          <img src="assets/images/work-dolby.svg" alt="Placeholder screenshot of Dolby Atmos contract work">
+        </div>
+        <p>PLACEHOLDER — replace with a real description of the scope, stack, and outcome of the
+          Dolby Atmos contract.</p>
+        <p class="modal-embed-note">GIF / video walkthrough placeholder</p>
+        <a class="modal-link" href="#" rel="noopener">View live site →</a>
+      </template>
+
+      <!-- Freelance -->
+      <article class="card">
+        <img class="card-thumb" src="assets/images/work-freelance.svg" alt="Placeholder thumbnail for freelance consulting work">
+        <div class="card-body">
+          <h3>Freelance Consulting</h3>
+          <p class="card-caption">Website consulting for small businesses (2018–2020).</p>
+          <div class="card-actions">
+            <button class="btn btn-secondary" type="button" data-modal-content="modal-freelance">Details</button>
+            <a class="btn btn-primary" href="#" rel="noopener">Visit site</a>
+          </div>
+        </div>
+      </article>
+      <template id="modal-freelance">
+        <h2 id="modal-title">Freelance Consulting</h2>
+        <div class="modal-media">
+          <img src="assets/images/work-freelance.svg" alt="Placeholder screenshot of freelance consulting work">
+        </div>
+        <p>PLACEHOLDER — replace with a real description of the small businesses you consulted for
+          and the websites you built or improved between 2018 and 2020.</p>
+        <p class="modal-embed-note">GIF / video walkthrough placeholder</p>
+        <a class="modal-link" href="#" rel="noopener">View live site →</a>
+      </template>
+
+      <!-- Flippable -->
+      <article class="card">
+        <img class="card-thumb" src="assets/images/work-flippable.svg" alt="Placeholder thumbnail for Flippable.org">
+        <div class="card-body">
+          <h3>Flippable.org</h3>
+          <p class="card-caption">Elections platform, nonprofit work (2017).</p>
+          <div class="card-actions">
+            <button class="btn btn-secondary" type="button" data-modal-content="modal-flippable">Details</button>
+            <a class="btn btn-primary" href="#" rel="noopener">Visit site</a>
+          </div>
+        </div>
+      </article>
+      <template id="modal-flippable">
+        <h2 id="modal-title">Flippable.org</h2>
+        <div class="modal-media">
+          <img src="assets/images/work-flippable.svg" alt="Placeholder screenshot of Flippable.org work">
+        </div>
+        <p>PLACEHOLDER — replace with a real description of your contribution to Flippable.org's
+          elections platform in 2017.</p>
+        <p class="modal-embed-note">GIF / video walkthrough placeholder</p>
+        <a class="modal-link" href="#" rel="noopener">View live site →</a>
+      </template>
+    </div>
+
+    <!-- Graphic design gallery, appended to the end of Work -->
+    <div style="margin-top: 3rem;">
+      <h3 class="section-title" style="font-size: 1.3rem;">Graphic Design</h3>
+      <p class="section-intro">A small sample of logo and print design from contract work.</p>
+      <div class="gallery-grid">
+        <button class="gallery-item" type="button" data-modal-content="modal-logo1">
+          <img src="assets/images/logo-1.svg" alt="Placeholder logo design 1, click to enlarge">
+          <span class="gallery-caption">Logo — Client 1 (placeholder)</span>
+        </button>
+        <template id="modal-logo1">
+          <h2 id="modal-title">Logo — Client 1</h2>
+          <div class="modal-media">
+            <img src="assets/images/logo-1.svg" alt="Placeholder logo design 1">
+          </div>
+          <p>PLACEHOLDER — replace with the real logo image and a short caption about the client and brief.</p>
+        </template>
+
+        <button class="gallery-item" type="button" data-modal-content="modal-logo2">
+          <img src="assets/images/logo-2.svg" alt="Placeholder logo design 2, click to enlarge">
+          <span class="gallery-caption">Logo — Client 2 (placeholder)</span>
+        </button>
+        <template id="modal-logo2">
+          <h2 id="modal-title">Logo — Client 2</h2>
+          <div class="modal-media">
+            <img src="assets/images/logo-2.svg" alt="Placeholder logo design 2">
+          </div>
+          <p>PLACEHOLDER — replace with the real logo image and a short caption about the client and brief.</p>
+        </template>
+
+        <button class="gallery-item" type="button" data-modal-content="modal-card">
+          <img src="assets/images/business-card.svg" alt="Placeholder business card design, click to enlarge">
+          <span class="gallery-caption">Business card (placeholder)</span>
+        </button>
+        <template id="modal-card">
+          <h2 id="modal-title">Business Card</h2>
+          <div class="modal-media">
+            <img src="assets/images/business-card.svg" alt="Placeholder business card design">
+          </div>
+          <p>PLACEHOLDER — replace with the real business card design and a short caption about the client.</p>
+        </template>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================== OPEN SOURCE ========================== -->
+  <section id="open-source" class="container reveal" tabindex="-1">
+    <h2 class="section-title">Open Source</h2>
+    <p class="section-intro">Contributions to established open source projects.</p>
+
+    <div class="card-grid">
+      <article class="card">
+        <img class="card-thumb" src="assets/images/os-firefox.svg" alt="Placeholder thumbnail for Mozilla Firefox contribution">
+        <div class="card-body">
+          <h3>Mozilla Firefox</h3>
+          <p class="card-caption">Open source contribution to Firefox.</p>
+          <div class="card-actions">
+            <button class="btn btn-secondary" type="button" data-modal-content="modal-firefox">Details</button>
+            <a class="btn btn-primary" href="#" rel="noopener">View contribution</a>
+          </div>
+        </div>
+      </article>
+      <template id="modal-firefox">
+        <h2 id="modal-title">Mozilla Firefox</h2>
+        <div class="modal-media">
+          <img src="assets/images/os-firefox.svg" alt="Placeholder screenshot of Firefox contribution">
+        </div>
+        <p>PLACEHOLDER — replace with a real description of the issue/PR you contributed to Firefox.</p>
+        <a class="modal-link" href="#" rel="noopener">View pull request →</a>
+      </template>
+
+      <article class="card">
+        <img class="card-thumb" src="assets/images/os-wikimedia.svg" alt="Placeholder thumbnail for Wikimedia contribution">
+        <div class="card-body">
+          <h3>Wikimedia</h3>
+          <p class="card-caption">Open source contribution to a Wikimedia project.</p>
+          <div class="card-actions">
+            <button class="btn btn-secondary" type="button" data-modal-content="modal-wikimedia">Details</button>
+            <a class="btn btn-primary" href="#" rel="noopener">View contribution</a>
+          </div>
+        </div>
+      </article>
+      <template id="modal-wikimedia">
+        <h2 id="modal-title">Wikimedia</h2>
+        <div class="modal-media">
+          <img src="assets/images/os-wikimedia.svg" alt="Placeholder screenshot of Wikimedia contribution">
+        </div>
+        <p>PLACEHOLDER — replace with a real description of the issue/PR you contributed to Wikimedia.</p>
+        <a class="modal-link" href="#" rel="noopener">View pull request →</a>
+      </template>
+
+      <article class="card">
+        <img class="card-thumb" src="assets/images/os-freecodecamp.svg" alt="Placeholder thumbnail for freeCodeCamp.org contribution">
+        <div class="card-body">
+          <h3>freeCodeCamp.org</h3>
+          <p class="card-caption">Open source contribution to freeCodeCamp.org.</p>
+          <div class="card-actions">
+            <button class="btn btn-secondary" type="button" data-modal-content="modal-fcc">Details</button>
+            <a class="btn btn-primary" href="#" rel="noopener">View contribution</a>
+          </div>
+        </div>
+      </article>
+      <template id="modal-fcc">
+        <h2 id="modal-title">freeCodeCamp.org</h2>
+        <div class="modal-media">
+          <img src="assets/images/os-freecodecamp.svg" alt="Placeholder screenshot of freeCodeCamp.org contribution">
+        </div>
+        <p>PLACEHOLDER — replace with a real description of the issue/PR you contributed to freeCodeCamp.org.</p>
+        <a class="modal-link" href="#" rel="noopener">View pull request →</a>
+      </template>
+    </div>
+  </section>
+
+  <!-- ========================== JUST FOR FUN ========================== -->
+  <section id="just-for-fun" class="container reveal" tabindex="-1">
+    <h2 class="section-title">Just For Fun</h2>
+    <p class="section-intro">Hackathons and personal projects built for the love of it.</p>
+
+    <div class="card-grid">
+      <article class="card">
+        <img class="card-thumb" src="assets/images/fun-hackathon.svg" alt="Placeholder thumbnail for a hackathon project">
+        <div class="card-body">
+          <h3>Hackathon Project</h3>
+          <p class="card-caption">A project built during a 48-hour hackathon.</p>
+          <div class="card-actions">
+            <button class="btn btn-secondary" type="button" data-modal-content="modal-hackathon">Details</button>
+            <a class="btn btn-primary" href="#" rel="noopener">Visit site</a>
+          </div>
+        </div>
+      </article>
+      <template id="modal-hackathon">
+        <h2 id="modal-title">Hackathon Project</h2>
+        <div class="modal-media">
+          <img src="assets/images/fun-hackathon.svg" alt="Placeholder screenshot of hackathon project">
+        </div>
+        <p>PLACEHOLDER — replace with a real description of the hackathon, the team, and what you built.</p>
+        <p class="modal-embed-note">YouTube demo video placeholder</p>
+        <a class="modal-link" href="#" rel="noopener">View live site →</a>
+      </template>
+
+      <article class="card">
+        <img class="card-thumb" src="assets/images/fun-personal.svg" alt="Placeholder thumbnail for a personal project">
+        <div class="card-body">
+          <h3>Personal Project</h3>
+          <p class="card-caption">A side project built purely for fun.</p>
+          <div class="card-actions">
+            <button class="btn btn-secondary" type="button" data-modal-content="modal-personal">Details</button>
+            <a class="btn btn-primary" href="#" rel="noopener">Visit site</a>
+          </div>
+        </div>
+      </article>
+      <template id="modal-personal">
+        <h2 id="modal-title">Personal Project</h2>
+        <div class="modal-media">
+          <img src="assets/images/fun-personal.svg" alt="Placeholder screenshot of personal project">
+        </div>
+        <p>PLACEHOLDER — replace with a real description of this personal project.</p>
+        <p class="modal-embed-note">GIF demo placeholder</p>
+        <a class="modal-link" href="#" rel="noopener">View live site →</a>
+      </template>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer container">
+  <p>© 2026 Dalia Nahol. Built with HTML, CSS &amp; JavaScript — no frameworks.</p>
+</footer>
+
+<div class="modal-overlay" data-modal-overlay hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div class="modal">
+    <button class="icon-btn modal-close" type="button" data-modal-close aria-label="Close dialog">
+      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <div class="modal-body" data-modal-body></div>
+  </div>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

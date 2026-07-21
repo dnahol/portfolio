@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 200">
+  <rect width="350" height="200" rx="12" fill="#20232a"/>
+  <rect x="1" y="1" width="348" height="198" rx="11" fill="none" stroke="#7c5cff" stroke-width="2"/>
+  <circle cx="46" cy="50" r="18" fill="#7c5cff"/>
+  <path d="M46 38 L56 50 L46 62 L36 50 Z" fill="#20232a"/>
+  <text x="30" y="100" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Jordan Client</text>
+  <text x="30" y="122" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#b9b3d9">Founder, Example Co.</text>
+  <line x1="30" y1="140" x2="320" y2="140" stroke="#3d3f52" stroke-width="1"/>
+  <text x="30" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#9b96b8">hello@example.com  ·  example.co</text>
+  <text x="175" y="188" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#5c5980" text-anchor="middle">PLACEHOLDER BUSINESS CARD DESIGN</text>
+</svg>

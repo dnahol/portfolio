@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2e3d"/>
+      <stop offset="1" stop-color="#1c6e8c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#g)"/>
+  <g fill="#ffffff" opacity="0.12">
+    <circle cx="340" cy="250" r="100"/>
+    <circle cx="40" cy="30" r="50"/>
+  </g>
+  <rect x="24" y="24" width="140" height="34" rx="8" fill="#ffffff" opacity="0.9"/>
+  <text x="94" y="47" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#0f2e3d" text-anchor="middle">PLACEHOLDER</text>
+  <text x="200" y="160" font-family="'Segoe UI', Arial, sans-serif" font-size="27" font-weight="700" fill="#ffffff" text-anchor="middle">Dolby Atmos Contract</text>
+  <text x="200" y="190" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#cdeaf4" text-anchor="middle">Audio &amp; Software Engineering</text>
+</svg>

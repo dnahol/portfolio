@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#eef2f6"/>
+  <rect x="100" y="70" width="100" height="100" rx="20" fill="none" stroke="#173a5e" stroke-width="8" transform="rotate(45 150 120)"/>
+  <circle cx="150" cy="120" r="18" fill="#173a5e"/>
+  <text x="150" y="230" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="#173a5e" text-anchor="middle">CLIENT LOGO</text>
+  <text x="150" y="258" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#5c7089" text-anchor="middle">Placeholder 2</text>
+</svg>

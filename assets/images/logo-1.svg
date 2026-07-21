@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#f4f1ea"/>
+  <circle cx="150" cy="120" r="60" fill="none" stroke="#2a2a2a" stroke-width="8"/>
+  <path d="M150 60 L172 120 L150 180 L128 120 Z" fill="#2a2a2a"/>
+  <text x="150" y="230" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="#2a2a2a" text-anchor="middle">CLIENT LOGO</text>
+  <text x="150" y="258" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#6b6b6b" text-anchor="middle">Placeholder 1</text>
+</svg>
